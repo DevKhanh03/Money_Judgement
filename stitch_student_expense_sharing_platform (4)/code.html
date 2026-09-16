@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {"darkMode":"class","theme":{"extend":{"colors":{"primary-fixed-dim":"#80d5cb","on-error":"#ffffff","tertiary-fixed":"#ffddb8","tertiary-container":"#945d00","outline-variant":"#bdc9c6","on-tertiary":"#ffffff","primary-container":"#0f766e","surface-dim":"#d2d9f4","surface-bright":"#faf8ff","on-background":"#131b2e","on-error-container":"#93000a","surface-container-highest":"#dae2fd","on-primary-fixed":"#00201d","primary-fixed":"#9cf2e8","surface-container-lowest":"#ffffff","inverse-surface":"#283044","inverse-on-surface":"#eef0ff","outline":"#6e7977","error-container":"#ffdad6","inverse-primary":"#80d5cb","tertiary-fixed-dim":"#ffb95f","surface-tint":"#006a63","surface-container-low":"#f2f3ff","on-surface-variant":"#3e4947","on-secondary-container":"#fffbff","on-primary-fixed-variant":"#00504a","on-primary-container":"#a3faef","secondary-fixed":"#e2dfff","on-secondary-fixed-variant":"#3323cc","on-tertiary-fixed-variant":"#653e00","secondary-container":"#645efb","primary":"#005c55","on-secondary":"#ffffff","secondary-fixed-dim":"#c3c0ff","on-surface":"#131b2e","on-primary":"#ffffff","surface-container-high":"#e2e7ff","secondary":"#4b41e1","background":"#faf8ff","surface-variant":"#dae2fd","on-tertiary-container":"#ffe6cc","surface-container":"#eaedff","on-secondary-fixed":"#0f0069","error":"#ba1a1a","tertiary":"#734700","on-tertiary-fixed":"#2a1700","surface":"#faf8ff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xl":"2rem","space-md":"1rem","space-lg":"1.5rem","space-2xl":"3rem","gutter-sm":"1rem","space-sm":"0.5rem","margin-sm":"1rem","margin":"2rem","space-xs":"0.25rem","gutter":"1.5rem"},"fontFamily":{"numeric-md":["Inter"],"headline-sm":["Be Vietnam Pro"],"headline-md":["Be Vietnam Pro"],"display-lg":["Be Vietnam Pro"],"body-md":["Inter"],"label-sm":["Inter"],"headline-lg-mobile":["Be Vietnam Pro"],"body-lg":["Inter"],"display-lg-mobile":["Be Vietnam Pro"],"numeric-lg":["Inter"],"headline-lg":["Be Vietnam Pro"],"body-sm":["Inter"],"label-md":["Inter"]},"fontSize":{"numeric-md":["16px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"600"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"600"}],"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"600"}],"headline-lg-mobile":["22px",{"lineHeight":"28px","letterSpacing":"0em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"display-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"numeric-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"400"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface min-h-screen antialiased"><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-lowest z-50 flex flex-col shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="p-space-lg flex items-center gap-space-sm"><img alt="TrọPay Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W93oymRETy0KCtNbSbZHaLqpb2oZRzojhk8nTEBrDHtJnsiZvBOXaDZhY7Ue31fbKdRXwHqIBTVQQwU2AlBvWQpn1v0O_K9_l999AZAYC0svltTQL-_efbXZ3unsOprg2nrjLpeWXGWnry6awL9u2CPQfl7i72SzXvYLwzgA45ij4E9CBsYDHE-HsT3VE50HOcMErcqYv3XbaW9cknYykS63YjkFFnPwt54qzz_hYT9qVfpvxuvF-2LTM"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-none">TrọPay</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-tight">Sổ thu chi phòng trọ</span></div></div><div class="px-space-md pb-space-md"><div class="relative bg-surface-container-low rounded-lg p-space-sm flex items-center justify-between cursor-pointer hover:bg-surface-container transition-colors"><div class="flex items-center gap-space-sm min-w-0"><span class="material-symbols-outlined text-primary text-xl flex-shrink-0">apartment</span><div class="min-w-0"><p class="font-label-md text-label-md text-on-surface truncate">Phòng 402 - KTX Bách Khoa</p><p class="font-body-sm text-body-sm text-on-surface-variant">4 thành viên</p></div></div><span class="material-symbols-outlined text-on-surface-variant text-lg flex-shrink-0">unfold_more</span></div></div><nav class="flex-1 px-space-md space-y-space-xs overflow-y-auto" data-active-classes="bg-primary-container text-on-primary-container font-headline-sm rounded-lg"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="tong-quan" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">dashboard</span><span>Tổng quan</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="quan-ly-chi-tieu" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">receipt_long</span><span>Quản lý chi tiêu</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-space-sm transition-all bg-primary-container text-on-primary-container font-headline-sm rounded-lg" data-path="chia-tien-va-khoan-no" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">balance</span><span>Chia tiền &amp; Khoản nợ</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="lich-su-thanh-toan" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">payments</span><span>Lịch sử thanh toán</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="thanh-vien-va-nhom" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">group</span><span>Thành viên &amp; Nhóm</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="thong-ke-va-bao-cao" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">monitoring</span><span>Thống kê &amp; Báo cáo</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="cai-dat-nhom" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">settings</span><span>Cài đặt nhóm</span></a></nav><div class="p-space-md mt-auto"><div class="bg-surface-container-low rounded-lg p-space-md"><div class="flex items-center gap-space-xs text-primary mb-space-xs"><span class="material-symbols-outlined text-sm">bolt</span><span class="font-label-md text-label-md">Điện nước tháng này</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Chỉ số điện chốt ngày 28 hàng tháng.</p></div></div></aside><div class="pl-64 flex flex-col min-h-screen"><header class="fixed top-0 left-64 right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl z-40 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-space-lg flex items-center justify-between gap-space-md"><div class="flex-1 max-w-md"><div class="relative flex items-center bg-surface-container-low rounded-lg px-space-sm py-space-xs"><span class="material-symbols-outlined text-on-surface-variant mr-space-xs text-lg">search</span><input class="bg-transparent w-full font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant focus:outline-none" placeholder="Tìm khoản chi, người đóng, ghi chú..." type="text"/></div></div><div class="flex items-center gap-space-md"><button class="inline-flex items-center gap-space-xs bg-primary text-on-primary px-space-md py-space-sm rounded-lg font-headline-sm text-headline-sm hover:bg-primary-container transition-colors" type="button"><span class="material-symbols-outlined text-lg">add_circle</span><span>+ Thêm khoản chi</span></button><div class="relative flex items-center justify-center"><button aria-label="Thông báo" class="p-space-sm rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-2xl">notifications</span></button><span class="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-error text-on-error font-label-sm text-label-sm">3</span></div><div class="flex items-center gap-space-sm pl-space-sm"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAy0dn5e7IDRPirncGul_GJuE6j6pQV3bvlsA8fIRaEFlKmG0yY2Lt6nf4xYFrbbUAzHCugGZIE11k6FuUNPBFDUxWa9KFEH-YCWyQW3oYmD1MTBtrQnAmztEIu4B36UIqHCrYXVyWwIfQ69rj--8pk7N5VwWi6dVN9fD3XLYI_9zN2NERlrQHhT3xjr5J0vYO3XorGLvDu7B6EpCM5Ju3KoA88VPn_75onVRQvdvWvJ_7aZCvPKUMt"/><div class="flex flex-col text-left"><span class="font-headline-sm text-headline-sm text-on-surface leading-tight">Nguyễn Văn Nam</span><span class="font-body-sm text-body-sm text-on-surface-variant leading-none">Trưởng phòng</span></div></div></div></div></header><main class="flex-1 pt-16 bg-background w-full px-space-lg pb-space-2xl"><div class="flex flex-col w-full">
+<div class="space-y-space-xl">
+<!-- Top Action Bar & Page Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed mb-space-xs">
+<span class="material-symbols-outlined text-sm">auto_fix_high</span>
+<span class="font-label-sm text-label-sm">Thuật toán Debt Simplification v2.4</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-on-surface tracking-tight">Cân đối công nợ &amp; Quyết toán</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mt-space-xs">
+          Hệ thống tự động cấn trừ đa chiều giúp tối ưu số lần chuyển khoản giữa các thành viên phòng 402, triệt tiêu giao dịch vòng tròn.
+        </p>
+</div>
+<div class="flex items-center gap-space-sm flex-wrap">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container-low hover:bg-surface-container text-on-surface rounded-lg font-headline-sm text-headline-sm transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-lg">download</span>
+<span>Xuất sao kê nợ</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-primary text-on-primary rounded-lg font-headline-sm text-headline-sm hover:bg-primary-container transition-all shadow-sm" onclick="document.getElementById('settlement-modal').classList.remove('hidden')" type="button">
+<span class="material-symbols-outlined text-lg">payments</span>
+<span>+ Ghi nhận thanh toán</span>
+</button>
+</div>
+</div>
+<!-- Optimization Banner / Hero Matrix Stat -->
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-r from-primary via-primary-container to-secondary p-space-lg text-on-primary shadow-md">
+<div class="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-lg">
+<div class="flex items-start gap-space-md">
+<div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-surface-container-lowest/15 backdrop-blur-md">
+<span class="material-symbols-outlined text-2xl text-on-primary">insights</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-md text-headline-md">Tối ưu hóa dòng tiền kỳ Tháng 10</span>
+<span class="rounded-full bg-tertiary-fixed text-on-tertiary-fixed px-space-xs py-0.5 font-label-sm text-label-sm uppercase">Tiết kiệm 67% giao dịch</span>
+</div>
+<p class="font-body-md text-body-md text-on-primary/90 mt-space-xs max-w-xl">
+              Thay vì <strong class="text-on-primary font-headline-sm">6 giao dịch chồng chéo</strong> (tổng số tiền quay vòng 2.450.000 ₫), hệ thống đã cấn trừ tinh gọn còn <strong class="text-on-primary font-headline-sm">3 giao dịch trực tiếp</strong>.
+            </p>
+</div>
+</div>
+<div class="flex items-center gap-space-md w-full lg:w-auto justify-between lg:justify-end">
+<div class="text-left lg:text-right">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-primary/80">Tổng nợ cần thanh toán</span>
+<p class="font-numeric-lg text-numeric-lg text-on-primary">1.150.000 ₫</p>
+</div>
+<button class="px-space-lg py-space-sm rounded-lg bg-surface-container-lowest text-primary font-headline-sm text-headline-sm hover:bg-surface-bright transition-colors shadow-sm" type="button">
+            Tất toán tháng 10
+          </button>
+</div>
+</div>
+<div class="absolute -right-16 -bottom-16 w-64 h-64 rounded-full bg-surface-container-lowest/10 blur-3xl pointer-events-none"></div>
+</div>
+<!-- Quick Stats Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant mb-space-xs">
+<span class="font-body-sm text-body-sm">Bạn phải thu</span>
+<span class="material-symbols-outlined text-primary text-xl">arrow_downward</span>
+</div>
+<p class="font-numeric-lg text-numeric-lg text-primary">830.000 ₫</p>
+<div class="mt-space-xs flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span>Từ 2 người: Quân, Tuấn Anh</span>
+</div>
+</div>
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant mb-space-xs">
+<span class="font-body-sm text-body-sm">Bạn phải trả</span>
+<span class="material-symbols-outlined text-error text-xl">arrow_upward</span>
+</div>
+<p class="font-numeric-lg text-numeric-lg text-error">320.000 ₫</p>
+<div class="mt-space-xs flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span>Cho 1 người: Hoàng Duy</span>
+</div>
+</div>
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant mb-space-xs">
+<span class="font-body-sm text-body-sm">Số dư ròng (Net)</span>
+<span class="material-symbols-outlined text-secondary text-xl">account_balance_wallet</span>
+</div>
+<p class="font-numeric-lg text-numeric-lg text-secondary">+510.000 ₫</p>
+<div class="mt-space-xs flex items-center gap-space-xs text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+<span>Dương quỹ sau cấn trừ</span>
+</div>
+</div>
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant mb-space-xs">
+<span class="font-body-sm text-body-sm">Hạn chót thanh toán</span>
+<span class="material-symbols-outlined text-tertiary-container text-xl">event_upcoming</span>
+</div>
+<p class="font-numeric-lg text-numeric-lg text-on-surface">30/10/2023</p>
+<div class="mt-space-xs flex items-center gap-space-xs text-tertiary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span>Còn 3 ngày nữa</span>
+</div>
+</div>
+</div>
+<!-- Main Section: Debt Matrix (Ai nợ Ai) -->
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-2xl">compare_arrows</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Quan hệ công nợ trực tiếp (Ai nợ Ai)</h2>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">3 khoản cần quyết toán</span>
+</div>
+<div class="grid grid-cols-1 gap-space-md">
+<!-- Debt Card 1: Minh Quân -> Nguyễn Văn Nam -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<!-- Debt Path Visualizer -->
+<div class="flex items-center gap-space-md flex-1">
+<!-- Sender (Debtor) -->
+<div class="flex items-center gap-space-sm min-w-0">
+<img class="w-12 h-12 rounded-full object-cover shadow-sm flex-shrink-0" data-alt="Vietnamese college male student avatar smiling warmly, campus setting, modern graphic style with teal and soft neutral colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfZTvgExJqRNVQLMQ4WvbZuAyv-jnoL5PirVi3TQ2jnEVmvBAro58WfCxrhD0G_k2OH3UhkT-lXUUyl5E3aRrVgwixqivvKK1Lt1i0wmiJSUeyKCM16TFolGtXu59mUIBygvtUjdcvgs6qXEGBBQkPqaA-6u3QoRAQhxzWsyoM4PgcdGRB0L4JTo-vDpqPFZenx1yihkSznb4qd7LfMJq4TE7XJHsreNpb8knhr_KhE-Vpoiknq8vT"/>
+<div class="min-w-0">
+<p class="font-headline-sm text-headline-sm text-on-surface truncate">Minh Quân</p>
+<p class="font-label-sm text-label-sm text-error bg-error-container/50 px-space-xs py-0.5 rounded-full inline-block mt-0.5">Người nợ</p>
+</div>
+</div>
+<!-- Direction & Amount Indicator -->
+<div class="flex-1 flex flex-col items-center px-space-sm">
+<div class="w-full flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-1">
+<span class="truncate">Khoản: Tiền phòng &amp; tiền điện</span>
+<span class="font-numeric-md text-numeric-md text-error">450.000 ₫</span>
+</div>
+<div class="relative w-full flex items-center">
+<div class="h-1 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-full"></div>
+</div>
+<div class="absolute right-0 -mr-1 flex items-center justify-center w-5 h-5 rounded-full bg-primary text-on-primary">
+<span class="material-symbols-outlined text-xs">chevron_right</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs mt-1 text-on-surface-variant font-body-sm text-body-sm">
+<span>Hạn: 30/10/2023</span>
+<span>•</span>
+<span class="text-tertiary">Chưa chuyển</span>
+</div>
+</div>
+<!-- Receiver (Creditor) -->
+<div class="flex items-center gap-space-sm min-w-0 text-right justify-end">
+<div class="min-w-0 text-right">
+<p class="font-headline-sm text-headline-sm text-on-surface truncate">Nguyễn Văn Nam</p>
+<p class="font-label-sm text-label-sm text-primary-container bg-primary-fixed px-space-xs py-0.5 rounded-full inline-block mt-0.5">Người nhận (Bạn)</p>
+</div>
+<img alt="Nam" class="w-12 h-12 rounded-full object-cover shadow-sm flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAy0dn5e7IDRPirncGul_GJuE6j6pQV3bvlsA8fIRaEFlKmG0yY2Lt6nf4xYFrbbUAzHCugGZIE11k6FuUNPBFDUxWa9KFEH-YCWyQW3oYmD1MTBtrQnAmztEIu4B36UIqHCrYXVyWwIfQ69rj--8pk7N5VwWi6dVN9fD3XLYI_9zN2NERlrQHhT3xjr5J0vYO3XorGLvDu7B6EpCM5Ju3KoA88VPn_75onVRQvdvWvJ_7aZCvPKUMt"/>
+</div>
+</div>
+<!-- Action Controls -->
+<div class="flex items-center gap-space-xs flex-wrap lg:justify-end">
+<button class="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container-low hover:bg-surface-container text-on-surface rounded-lg font-headline-sm text-label-md transition-colors" onclick="openQrModal('Minh Quân', 450000, 'TroPay P402 Quan tra Nam', 'MB Bank', '0987654321')" type="button">
+<span class="material-symbols-outlined text-base">qr_code_2</span>
+<span>Mở mã VietQR</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container-low hover:bg-surface-container text-on-surface rounded-lg font-headline-sm text-label-md transition-colors" type="button">
+<span class="material-symbols-outlined text-base text-secondary">chat</span>
+<span>Nhắc nợ qua Zalo</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-primary text-on-primary rounded-lg font-headline-sm text-label-md hover:bg-primary-container transition-colors" type="button">
+<span class="material-symbols-outlined text-base">check_circle</span>
+<span>Xác nhận đã nhận</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Debt Card 2: Tuấn Anh -> Nguyễn Văn Nam -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md flex-1">
+<div class="flex items-center gap-space-sm min-w-0">
+<img class="w-12 h-12 rounded-full object-cover shadow-sm flex-shrink-0" data-alt="Portrait of a Vietnamese male engineering student in glasses and casual t-shirt, clean campus dorm interior background, teal accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqY_f9dTU-mo5Y7ql_aqJ5IdX_OKQf8JxOQga2pV3JHSVcn_1O_qOpwAgJp8DjE5V3L9ZKJkv6RFt5_oS7BF5QpH53UWC72lmQBpliETXkDTibF_gzP1uCUxDUwxIsBukyULX3xwmxDZ151ehEtahNZxHrWm0RnNHMTbsu8ept2USOK0viMTy50r5lR5HN3EeflCxcZRErUGLaWEPUsqUcyXgBVDf29V-fs3AE9HLqkq8aA7fLUyZ5"/>
+<div class="min-w-0">
+<p class="font-headline-sm text-headline-sm text-on-surface truncate">Tuấn Anh</p>
+<p class="font-label-sm text-label-sm text-error bg-error-container/50 px-space-xs py-0.5 rounded-full inline-block mt-0.5">Người nợ</p>
+</div>
+</div>
+<div class="flex-1 flex flex-col items-center px-space-sm">
+<div class="w-full flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-1">
+<span class="truncate">Khoản: Tiền điện &amp; nước tháng 10</span>
+<span class="font-numeric-md text-numeric-md text-error">380.000 ₫</span>
+</div>
+<div class="relative w-full flex items-center">
+<div class="h-1 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-full"></div>
+</div>
+<div class="absolute right-0 -mr-1 flex items-center justify-center w-5 h-5 rounded-full bg-primary text-on-primary">
+<span class="material-symbols-outlined text-xs">chevron_right</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs mt-1 text-on-surface-variant font-body-sm text-body-sm">
+<span>Hạn: 30/10/2023</span>
+<span>•</span>
+<span class="text-tertiary">Đã gửi lời nhắc</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm min-w-0 text-right justify-end">
+<div class="min-w-0 text-right">
+<p class="font-headline-sm text-headline-sm text-on-surface truncate">Nguyễn Văn Nam</p>
+<p class="font-label-sm text-label-sm text-primary-container bg-primary-fixed px-space-xs py-0.5 rounded-full inline-block mt-0.5">Người nhận (Bạn)</p>
+</div>
+<img alt="Nam" class="w-12 h-12 rounded-full object-cover shadow-sm flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAy0dn5e7IDRPirncGul_GJuE6j6pQV3bvlsA8fIRaEFlKmG0yY2Lt6nf4xYFrbbUAzHCugGZIE11k6FuUNPBFDUxWa9KFEH-YCWyQW3oYmD1MTBtrQnAmztEIu4B36UIqHCrYXVyWwIfQ69rj--8pk7N5VwWi6dVN9fD3XLYI_9zN2NERlrQHhT3xjr5J0vYO3XorGLvDu7B6EpCM5Ju3KoA88VPn_75onVRQvdvWvJ_7aZCvPKUMt"/>
+</div>
+</div>
+<div class="flex items-center gap-space-xs flex-wrap lg:justify-end">
+<button class="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container-low hover:bg-surface-container text-on-surface rounded-lg font-headline-sm text-label-md transition-colors" onclick="openQrModal('Tuấn Anh', 380000, 'TroPay P402 TuanAnh tra Nam', 'MB Bank', '0987654321')" type="button">
+<span class="material-symbols-outlined text-base">qr_code_2</span>
+<span>Mở mã VietQR</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-primary text-on-primary rounded-lg font-headline-sm text-label-md hover:bg-primary-container transition-colors" type="button">
+<span class="material-symbols-outlined text-base">check_circle</span>
+<span>Xác nhận đã nhận</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Debt Card 3: Nguyễn Văn Nam (Current User) -> Hoàng Duy -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md flex-1">
+<!-- Sender: Current User -->
+<div class="flex items-center gap-space-sm min-w-0">
+<img alt="Nam" class="w-12 h-12 rounded-full object-cover shadow-sm flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAy0dn5e7IDRPirncGul_GJuE6j6pQV3bvlsA8fIRaEFlKmG0yY2Lt6nf4xYFrbbUAzHCugGZIE11k6FuUNPBFDUxWa9KFEH-YCWyQW3oYmD1MTBtrQnAmztEIu4B36UIqHCrYXVyWwIfQ69rj--8pk7N5VwWi6dVN9fD3XLYI_9zN2NERlrQHhT3xjr5J0vYO3XorGLvDu7B6EpCM5Ju3KoA88VPn_75onVRQvdvWvJ_7aZCvPKUMt"/>
+<div class="min-w-0">
+<p class="font-headline-sm text-headline-sm text-on-surface truncate">Nguyễn Văn Nam</p>
+<p class="font-label-sm text-label-sm text-error bg-error-container/50 px-space-xs py-0.5 rounded-full inline-block mt-0.5">Bạn phải trả</p>
+</div>
+</div>
+<!-- Flow Indicator -->
+<div class="flex-1 flex flex-col items-center px-space-sm">
+<div class="w-full flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-1">
+<span class="truncate">Khoản: Tiền ăn liên hoan đầu tháng</span>
+<span class="font-numeric-md text-numeric-md text-secondary font-bold">320.000 ₫</span>
+</div>
+<div class="relative w-full flex items-center">
+<div class="h-1 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-secondary rounded-full w-full"></div>
+</div>
+<div class="absolute right-0 -mr-1 flex items-center justify-center w-5 h-5 rounded-full bg-secondary text-on-secondary">
+<span class="material-symbols-outlined text-xs">chevron_right</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs mt-1 text-on-surface-variant font-body-sm text-body-sm">
+<span>Khoản chi do Hoàng Duy thanh toán trước</span>
+</div>
+</div>
+<!-- Receiver: Hoang Duy -->
+<div class="flex items-center gap-space-sm min-w-0 text-right justify-end">
+<div class="min-w-0 text-right">
+<p class="font-headline-sm text-headline-sm text-on-surface truncate">Hoàng Duy</p>
+<p class="font-label-sm text-label-sm text-secondary bg-secondary-fixed px-space-xs py-0.5 rounded-full inline-block mt-0.5">Chủ khoản chi</p>
+</div>
+<img class="w-12 h-12 rounded-full object-cover shadow-sm flex-shrink-0" data-alt="Portrait of a Vietnamese male student holding coffee cup in student lounge, bright ambient lighting, teal and deep navy color notes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBt2VQO9532AWlS_AdKKTLaaFtTYYLBhnvx8PnVgdXRwWAEzCLn0YorNRF_SiWvX5OOkSHm6yvZWEJngMUl1fMmVVx-wYKFY50JHedTYQP5yRVX_HPaemry5nkiVah3xYQcXQVxsvZv5Vol0zPGq5s0lO64iCBGLkEJTrPLkVb4Dfb7w0v4p8OPSGgwpb_IhyPsvd2TMcp_-BN1mUkNxbPf_bDlE5JOc8xOWYllkfLjetR6s1ALEhP9"/>
+</div>
+</div>
+<!-- Action: Pay now via QR -->
+<div class="flex items-center gap-space-xs flex-wrap lg:justify-end">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-xs bg-secondary text-on-secondary rounded-lg font-headline-sm text-label-md hover:bg-secondary-container transition-colors shadow-sm" onclick="document.getElementById('settlement-modal').classList.remove('hidden')" type="button">
+<span class="material-symbols-outlined text-base">qr_code_scanner</span>
+<span>Quét mã VietQR trả Duy</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container-low hover:bg-surface-container text-on-surface rounded-lg font-headline-sm text-label-md transition-colors" type="button">
+<span class="material-symbols-outlined text-base">done_all</span>
+<span>Đã chuyển khoản</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Settlement History Table & Roommate Overview -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-lg">
+<!-- Recent Settlement Records -->
+<div class="lg:col-span-2 space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-xl">history</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Lịch sử cấn trừ &amp; thanh toán gần đây</h3>
+</div>
+<a class="font-label-md text-label-md text-primary hover:underline" href="#">Xem tất cả</a>
+</div>
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-md text-body-md">
+<thead class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
+<tr>
+<th class="px-space-md py-space-sm">Thời gian</th>
+<th class="px-space-md py-space-sm">Giao dịch cấn trừ</th>
+<th class="px-space-md py-space-sm">Hình thức</th>
+<th class="px-space-md py-space-sm text-right">Số tiền</th>
+<th class="px-space-md py-space-sm text-center">Trạng thái</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-transparent">
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="px-space-md py-space-sm text-on-surface-variant font-body-sm text-body-sm whitespace-nowrap">
+                    26/10 14:20
+                  </td>
+<td class="px-space-md py-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-body-md text-on-surface">Minh Quân</span>
+<span class="material-symbols-outlined text-sm text-on-surface-variant">arrow_forward</span>
+<span class="font-headline-sm text-body-md text-on-surface">Hoàng Duy</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tiền mạng Internet tháng 10</p>
+</td>
+<td class="px-space-md py-space-sm whitespace-nowrap">
+<span class="px-space-xs py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">VietQR Auto</span>
+</td>
+<td class="px-space-md py-space-sm text-right font-numeric-md text-numeric-md text-on-surface whitespace-nowrap">
+                    80.000 ₫
+                  </td>
+<td class="px-space-md py-space-sm text-center whitespace-nowrap">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                      Đã hoàn tất
+                    </span>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="px-space-md py-space-sm text-on-surface-variant font-body-sm text-body-sm whitespace-nowrap">
+                    25/10 19:45
+                  </td>
+<td class="px-space-md py-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-body-md text-on-surface">Tuấn Anh</span>
+<span class="material-symbols-outlined text-sm text-on-surface-variant">arrow_forward</span>
+<span class="font-headline-sm text-body-md text-on-surface">Hoàng Duy</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tiền mua gia vị &amp; nước mắm</p>
+</td>
+<td class="px-space-md py-space-sm whitespace-nowrap">
+<span class="px-space-xs py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Tiền mặt</span>
+</td>
+<td class="px-space-md py-space-sm text-right font-numeric-md text-numeric-md text-on-surface whitespace-nowrap">
+                    45.000 ₫
+                  </td>
+<td class="px-space-md py-space-sm text-center whitespace-nowrap">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                      Đã hoàn tất
+                    </span>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="px-space-md py-space-sm text-on-surface-variant font-body-sm text-body-sm whitespace-nowrap">
+                    24/10 08:12
+                  </td>
+<td class="px-space-md py-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-body-md text-on-surface">Nguyễn Văn Nam</span>
+<span class="material-symbols-outlined text-sm text-on-surface-variant">arrow_forward</span>
+<span class="font-headline-sm text-body-md text-on-surface">Quân, Duy, T.Anh</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Hoàn tiền thừa điện thoại tháng 9</p>
+</td>
+<td class="px-space-md py-space-sm whitespace-nowrap">
+<span class="px-space-xs py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Cấn trừ ví chung</span>
+</td>
+<td class="px-space-md py-space-sm text-right font-numeric-md text-numeric-md text-on-surface whitespace-nowrap">
+                    120.000 ₫
+                  </td>
+<td class="px-space-md py-space-sm text-center whitespace-nowrap">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+                      Chờ xác nhận
+                    </span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- Settlement Matrix Summary Card -->
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-xl">group</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Vị thế thành viên</h3>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">4/4 thành viên</span>
+</div>
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<img alt="Nam" class="w-10 h-10 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAy0dn5e7IDRPirncGul_GJuE6j6pQV3bvlsA8fIRaEFlKmG0yY2Lt6nf4xYFrbbUAzHCugGZIE11k6FuUNPBFDUxWa9KFEH-YCWyQW3oYmD1MTBtrQnAmztEIu4B36UIqHCrYXVyWwIfQ69rj--8pk7N5VwWi6dVN9fD3XLYI_9zN2NERlrQHhT3xjr5J0vYO3XorGLvDu7B6EpCM5Ju3KoA88VPn_75onVRQvdvWvJ_7aZCvPKUMt"/>
+<div>
+<p class="font-headline-sm text-headline-sm text-on-surface">Văn Nam (Bạn)</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Chốt nợ ròng</p>
+</div>
+</div>
+<span class="font-numeric-md text-numeric-md text-primary">+510.000 ₫</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center font-headline-sm text-headline-sm text-primary">
+                HD
+              </div>
+<div>
+<p class="font-headline-sm text-headline-sm text-on-surface">Hoàng Duy</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Chờ nhận</p>
+</div>
+</div>
+<span class="font-numeric-md text-numeric-md text-primary">+320.000 ₫</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center font-headline-sm text-headline-sm text-error">
+                MQ
+              </div>
+<div>
+<p class="font-headline-sm text-headline-sm text-on-surface">Minh Quân</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cần trả</p>
+</div>
+</div>
+<span class="font-numeric-md text-numeric-md text-error">-450.000 ₫</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center font-headline-sm text-headline-sm text-error">
+                TA
+              </div>
+<div>
+<p class="font-headline-sm text-headline-sm text-on-surface">Tuấn Anh</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cần trả</p>
+</div>
+</div>
+<span class="font-numeric-md text-numeric-md text-error">-380.000 ₫</span>
+</div>
+<div class="pt-space-sm">
+<div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span>Tổng chênh lệch công nợ:</span>
+<span class="font-numeric-md text-numeric-md text-on-surface">0 ₫ (Cân bằng)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Dedicated Settlement Modal / QR Popout -->
+<div class="fixed inset-0 z-50 flex items-center justify-center bg-inverse-surface/40 backdrop-blur-sm p-space-md" id="settlement-modal">
+<div class="w-full max-w-md bg-surface-container-lowest rounded-xl shadow-xl overflow-hidden animate-in fade-in zoom-in duration-200">
+<!-- Modal Header -->
+<div class="p-space-md bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-xl">qr_code_scanner</span>
+<h4 class="font-headline-md text-headline-md text-on-surface">Thanh toán VietQR Napas247</h4>
+</div>
+<button class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant" onclick="document.getElementById('settlement-modal').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-lg">close</span>
+</button>
+</div>
+<!-- Modal Body -->
+<div class="p-space-lg space-y-space-md flex flex-col items-center text-center">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Người thụ hưởng</span>
+<p class="font-headline-lg text-headline-lg text-on-surface mt-0.5" id="modal-payee-name">HOÀNG DUY</p>
+<div class="inline-flex items-center gap-space-xs mt-1 px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm text-primary">verified</span>
+<span id="modal-bank-info">MB Bank • STK: 0345 889 999</span>
+</div>
+</div>
+<!-- Generated VietQR Display Box -->
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-md flex flex-col items-center justify-center relative">
+<svg class="w-48 h-48" fill="currentColor" viewbox="0 0 200 200">
+<!-- QR Top Left Marker -->
+<rect fill="#005C55" height="45" rx="6" width="45" x="15" y="15"></rect>
+<rect fill="#FFFFFF" height="25" rx="3" width="25" x="25" y="25"></rect>
+<rect fill="#005C55" height="11" rx="2" width="11" x="32" y="32"></rect>
+<!-- QR Top Right Marker -->
+<rect fill="#005C55" height="45" rx="6" width="45" x="140" y="15"></rect>
+<rect fill="#FFFFFF" height="25" rx="3" width="25" x="150" y="25"></rect>
+<rect fill="#005C55" height="11" rx="2" width="11" x="157" y="32"></rect>
+<!-- QR Bottom Left Marker -->
+<rect fill="#005C55" height="45" rx="6" width="45" x="15" y="140"></rect>
+<rect fill="#FFFFFF" height="25" rx="3" width="25" x="25" y="150"></rect>
+<rect fill="#005C55" height="11" rx="2" width="11" x="32" y="157"></rect>
+<!-- Pattern Dots Simulated Matrix -->
+<circle cx="80" cy="25" fill="#131B2E" r="4"></circle>
+<circle cx="95" cy="25" fill="#131B2E" r="4"></circle>
+<circle cx="115" cy="25" fill="#131B2E" r="4"></circle>
+<circle cx="75" cy="45" fill="#131B2E" r="4"></circle>
+<circle cx="90" cy="45" fill="#131B2E" r="4"></circle>
+<circle cx="105" cy="45" fill="#131B2E" r="4"></circle>
+<circle cx="125" cy="45" fill="#131B2E" r="4"></circle>
+<!-- Center Napas / TroPay Logo Overlay -->
+<rect fill="#FFFFFF" height="50" rx="10" width="50" x="75" y="75"></rect>
+<rect fill="#005C55" height="40" rx="8" width="40" x="80" y="80"></rect>
+<path d="M93 103 L100 92 L107 103 Z" fill="#FFFFFF"></path>
+<circle cx="100" cy="100" fill="#FFB95F" r="3"></circle>
+<!-- Bottom QR Matrix Elements -->
+<circle cx="80" cy="145" fill="#131B2E" r="4"></circle>
+<circle cx="95" cy="145" fill="#131B2E" r="4"></circle>
+<circle cx="115" cy="145" fill="#131B2E" r="4"></circle>
+<circle cx="135" cy="145" fill="#131B2E" r="4"></circle>
+<circle cx="80" cy="165" fill="#131B2E" r="4"></circle>
+<circle cx="105" cy="165" fill="#131B2E" r="4"></circle>
+<circle cx="120" cy="165" fill="#131B2E" r="4"></circle>
+<circle cx="140" cy="165" fill="#131B2E" r="4"></circle>
+<circle cx="160" cy="165" fill="#131B2E" r="4"></circle>
+<circle cx="175" cy="145" fill="#131B2E" r="4"></circle>
+<circle cx="175" cy="125" fill="#131B2E" r="4"></circle>
+<circle cx="145" cy="95" fill="#131B2E" r="4"></circle>
+<circle cx="160" cy="95" fill="#131B2E" r="4"></circle>
+<circle cx="175" cy="95" fill="#131B2E" r="4"></circle>
+<circle cx="35" cy="95" fill="#131B2E" r="4"></circle>
+<circle cx="50" cy="95" fill="#131B2E" r="4"></circle>
+</svg>
+<div class="mt-space-xs flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm text-primary">lock</span>
+<span>Mã động chuẩn Napas247</span>
+</div>
+</div>
+<!-- Payment Meta Details Box -->
+<div class="w-full bg-surface-container-low rounded-lg p-space-sm space-y-space-xs text-left">
+<div class="flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Số tiền thanh toán:</span>
+<span class="font-numeric-md text-numeric-md text-primary" id="modal-amount">320.000 ₫</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Nội dung chuyển khoản:</span>
+<div class="flex items-center gap-space-xs">
+<code class="font-numeric-md text-body-sm text-on-surface bg-surface-container px-space-xs py-0.5 rounded" id="modal-memo">TroPay P402 Nam tra Duy</code>
+<button class="text-primary hover:text-primary-container" onclick="navigator.clipboard.writeText(document.getElementById('modal-memo').innerText)" title="Sao chép" type="button">
+<span class="material-symbols-outlined text-sm">content_copy</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal Footer -->
+<div class="p-space-md bg-surface-container-low flex items-center justify-end gap-space-sm">
+<button class="px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container font-headline-sm text-body-md transition-colors" onclick="document.getElementById('settlement-modal').classList.add('hidden')" type="button">
+          Đóng
+        </button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-primary text-on-primary font-headline-sm text-body-md hover:bg-primary-container transition-colors shadow-sm" onclick="confirmPayment()" type="button">
+<span class="material-symbols-outlined text-base">task_alt</span>
+<span>Tôi đã chuyển khoản (Chờ duyệt)</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  function openQrModal(name, amount, memo, bank, acc) {
+    document.getElementById('modal-payee-name').innerText = name.toUpperCase();
+    document.getElementById('modal-amount').innerText = amount.toLocaleString('vi-VN') + ' ₫';
+    document.getElementById('modal-memo').innerText = memo;
+    document.getElementById('modal-bank-info').innerText = (bank || 'MB Bank') + ' • STK: ' + (acc || '0987 654 321');
+    document.getElementById('settlement-modal').classList.remove('hidden');
+  }
+
+  function confirmPayment() {
+    alert('Đã gửi thông báo xác nhận thanh toán đến thành viên phòng trọ!');
+    document.getElementById('settlement-modal').classList.add('hidden');
+  }
+</script></main></div></body></html>

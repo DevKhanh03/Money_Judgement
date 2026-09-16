@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {"darkMode":"class","theme":{"extend":{"colors":{"primary-fixed-dim":"#80d5cb","on-error":"#ffffff","tertiary-fixed":"#ffddb8","tertiary-container":"#945d00","outline-variant":"#bdc9c6","on-tertiary":"#ffffff","primary-container":"#0f766e","surface-dim":"#d2d9f4","surface-bright":"#faf8ff","on-background":"#131b2e","on-error-container":"#93000a","surface-container-highest":"#dae2fd","on-primary-fixed":"#00201d","primary-fixed":"#9cf2e8","surface-container-lowest":"#ffffff","inverse-surface":"#283044","inverse-on-surface":"#eef0ff","outline":"#6e7977","error-container":"#ffdad6","inverse-primary":"#80d5cb","tertiary-fixed-dim":"#ffb95f","surface-tint":"#006a63","surface-container-low":"#f2f3ff","on-surface-variant":"#3e4947","on-secondary-container":"#fffbff","on-primary-fixed-variant":"#00504a","on-primary-container":"#a3faef","secondary-fixed":"#e2dfff","on-secondary-fixed-variant":"#3323cc","on-tertiary-fixed-variant":"#653e00","secondary-container":"#645efb","primary":"#005c55","on-secondary":"#ffffff","secondary-fixed-dim":"#c3c0ff","on-surface":"#131b2e","on-primary":"#ffffff","surface-container-high":"#e2e7ff","secondary":"#4b41e1","background":"#faf8ff","surface-variant":"#dae2fd","on-tertiary-container":"#ffe6cc","surface-container":"#eaedff","on-secondary-fixed":"#0f0069","error":"#ba1a1a","tertiary":"#734700","on-tertiary-fixed":"#2a1700","surface":"#faf8ff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xl":"2rem","space-md":"1rem","space-lg":"1.5rem","space-2xl":"3rem","gutter-sm":"1rem","space-sm":"0.5rem","margin-sm":"1rem","margin":"2rem","space-xs":"0.25rem","gutter":"1.5rem"},"fontFamily":{"numeric-md":["Inter"],"headline-sm":["Be Vietnam Pro"],"headline-md":["Be Vietnam Pro"],"display-lg":["Be Vietnam Pro"],"body-md":["Inter"],"label-sm":["Inter"],"headline-lg-mobile":["Be Vietnam Pro"],"body-lg":["Inter"],"display-lg-mobile":["Be Vietnam Pro"],"numeric-lg":["Inter"],"headline-lg":["Be Vietnam Pro"],"body-sm":["Inter"],"label-md":["Inter"]},"fontSize":{"numeric-md":["16px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"600"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"600"}],"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"600"}],"headline-lg-mobile":["22px",{"lineHeight":"28px","letterSpacing":"0em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"display-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"numeric-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"400"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface min-h-screen antialiased"><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-lowest z-50 flex flex-col shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="p-space-lg flex items-center gap-space-sm"><img alt="TrọPay Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W93oymRETy0KCtNbSbZHaLqpb2oZRzojhk8nTEBrDHtJnsiZvBOXaDZhY7Ue31fbKdRXwHqIBTVQQwU2AlBvWQpn1v0O_K9_l999AZAYC0svltTQL-_efbXZ3unsOprg2nrjLpeWXGWnry6awL9u2CPQfl7i72SzXvYLwzgA45ij4E9CBsYDHE-HsT3VE50HOcMErcqYv3XbaW9cknYykS63YjkFFnPwt54qzz_hYT9qVfpvxuvF-2LTM"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-none">TrọPay</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-tight">Sổ thu chi phòng trọ</span></div></div><div class="px-space-md pb-space-md"><div class="relative bg-surface-container-low rounded-lg p-space-sm flex items-center justify-between cursor-pointer hover:bg-surface-container transition-colors"><div class="flex items-center gap-space-sm min-w-0"><span class="material-symbols-outlined text-primary text-xl flex-shrink-0">apartment</span><div class="min-w-0"><p class="font-label-md text-label-md text-on-surface truncate">Phòng 402 - KTX Bách Khoa</p><p class="font-body-sm text-body-sm text-on-surface-variant">4 thành viên</p></div></div><span class="material-symbols-outlined text-on-surface-variant text-lg flex-shrink-0">unfold_more</span></div></div><nav class="flex-1 px-space-md space-y-space-xs overflow-y-auto" data-active-classes="bg-primary-container text-on-primary-container font-headline-sm rounded-lg"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="tong-quan" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">dashboard</span><span>Tổng quan</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-space-sm transition-all bg-primary-container text-on-primary-container font-headline-sm rounded-lg" data-path="quan-ly-chi-tieu" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">receipt_long</span><span>Quản lý chi tiêu</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="chia-tien-va-khoan-no" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">balance</span><span>Chia tiền &amp; Khoản nợ</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="lich-su-thanh-toan" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">payments</span><span>Lịch sử thanh toán</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="thanh-vien-va-nhom" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">group</span><span>Thành viên &amp; Nhóm</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="thong-ke-va-bao-cao" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">monitoring</span><span>Thống kê &amp; Báo cáo</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md" data-path="cai-dat-nhom" href="#"><span class="material-symbols-outlined flex-shrink-0 text-xl">settings</span><span>Cài đặt nhóm</span></a></nav><div class="p-space-md mt-auto"><div class="bg-surface-container-low rounded-lg p-space-md"><div class="flex items-center gap-space-xs text-primary mb-space-xs"><span class="material-symbols-outlined text-sm">bolt</span><span class="font-label-md text-label-md">Điện nước tháng này</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Chỉ số điện chốt ngày 28 hàng tháng.</p></div></div></aside><div class="pl-64 flex flex-col min-h-screen"><header class="fixed top-0 left-64 right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl z-40 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-space-lg flex items-center justify-between gap-space-md"><div class="flex-1 max-w-md"><div class="relative flex items-center bg-surface-container-low rounded-lg px-space-sm py-space-xs"><span class="material-symbols-outlined text-on-surface-variant mr-space-xs text-lg">search</span><input class="bg-transparent w-full font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant focus:outline-none" placeholder="Tìm khoản chi, người đóng, ghi chú..." type="text"/></div></div><div class="flex items-center gap-space-md"><button class="inline-flex items-center gap-space-xs bg-primary text-on-primary px-space-md py-space-sm rounded-lg font-headline-sm text-headline-sm hover:bg-primary-container transition-colors" type="button"><span class="material-symbols-outlined text-lg">add_circle</span><span>+ Thêm khoản chi</span></button><div class="relative flex items-center justify-center"><button aria-label="Thông báo" class="p-space-sm rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-2xl">notifications</span></button><span class="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-error text-on-error font-label-sm text-label-sm">3</span></div><div class="flex items-center gap-space-sm pl-space-sm"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAy0dn5e7IDRPirncGul_GJuE6j6pQV3bvlsA8fIRaEFlKmG0yY2Lt6nf4xYFrbbUAzHCugGZIE11k6FuUNPBFDUxWa9KFEH-YCWyQW3oYmD1MTBtrQnAmztEIu4B36UIqHCrYXVyWwIfQ69rj--8pk7N5VwWi6dVN9fD3XLYI_9zN2NERlrQHhT3xjr5J0vYO3XorGLvDu7B6EpCM5Ju3KoA88VPn_75onVRQvdvWvJ_7aZCvPKUMt"/><div class="flex flex-col text-left"><span class="font-headline-sm text-headline-sm text-on-surface leading-tight">Nguyễn Văn Nam</span><span class="font-body-sm text-body-sm text-on-surface-variant leading-none">Trưởng phòng</span></div></div></div></div></header><main class="flex-1 pt-16 bg-background w-full px-space-lg pb-space-2xl"><div class="flex flex-col w-full">
+<script>
+    (() => {
+      const activeLink = document.querySelector('aside nav a[data-path="lich-su-thanh-toan"]');
+      if (activeLink) {
+        document.querySelectorAll('aside nav a').forEach(el => {
+          el.className = 'flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-body-md text-body-md';
+        });
+        activeLink.className = 'flex items-center gap-space-sm px-space-md py-space-sm rounded-lg bg-primary-container text-on-primary-container font-headline-sm text-headline-sm transition-all shadow-sm';
+      }
+    })();
+  </script>
+<section class="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-lg">
+<div class="space-y-space-xs max-w-2xl">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+<span>Sổ quỹ phòng 402 • Kỳ sao kê T10/2024</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Lịch sử giao dịch &amp; Thanh toán nợ</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Theo dõi toàn bộ lịch sử thanh toán tiền trọ, bù trừ công nợ và chuyển khoản VietQR giữa các thành viên phòng 402.
+      </p>
+</div>
+<div class="flex items-center gap-space-sm flex-wrap">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container transition-all shadow-sm font-headline-sm text-headline-sm" type="button">
+<span class="material-symbols-outlined text-lg">download</span>
+<span>Xuất báo cáo sao kê</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-primary text-on-primary hover:bg-primary-container transition-all shadow-md font-headline-sm text-headline-sm" onclick="openCreateModal()" type="button">
+<span class="material-symbols-outlined text-lg">add_circle</span>
+<span>Ghi nhận trả nợ</span>
+</button>
+</div>
+</section>
+<section class="grid grid-cols-1 md:grid-cols-12 gap-space-md mb-space-xl">
+<div class="md:col-span-4 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-28 h-28 bg-primary/5 rounded-full blur-xl pointer-events-none"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Đã quyết toán tháng 10</span>
+<div class="w-9 h-9 rounded-lg bg-primary-container/15 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-xl">account_balance_wallet</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-primary tracking-tight">4.850.000</span>
+<span class="font-headline-sm text-headline-sm text-primary">₫</span>
+</div>
+<div class="mt-space-xs flex items-center gap-space-xs text-primary font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-base">trending_up</span>
+<span>Đạt 94% hạn mức chi dự kiến phòng</span>
+</div>
+</div>
+</div>
+<div class="md:col-span-4 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-28 h-28 bg-tertiary-container/10 rounded-full blur-xl pointer-events-none"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Giao dịch chờ duyệt</span>
+<div class="w-9 h-9 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-xl">pending_actions</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-tertiary tracking-tight">120.000</span>
+<span class="font-headline-sm text-headline-sm text-tertiary">₫</span>
+</div>
+<div class="mt-space-xs flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="inline-block w-2 h-2 rounded-full bg-tertiary-container"></span>
+<span>1 giao dịch cần Nguyễn Văn Nam xác nhận</span>
+</div>
+</div>
+</div>
+<div class="md:col-span-4 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-28 h-28 bg-secondary-container/10 rounded-full blur-xl pointer-events-none"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Số lượt thanh toán thành công</span>
+<div class="w-9 h-9 rounded-lg bg-secondary-fixed text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-xl">task_alt</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-secondary tracking-tight">24</span>
+<span class="font-headline-sm text-headline-sm text-on-surface-variant">lượt</span>
+</div>
+<div class="mt-space-xs flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-base text-primary">speed</span>
+<span>Trung bình bù trừ nợ: 18 phút</span>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-surface-container-lowest rounded-xl shadow-sm mb-space-md p-space-md space-y-space-md">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-sm items-center">
+<div class="lg:col-span-4 relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-lg">search</span>
+<input class="w-full pl-9 pr-3 py-2 bg-surface-container-low rounded-lg font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant focus:bg-surface-container-lowest focus:outline-none transition-colors" id="txSearchInput" placeholder="Tìm người gửi, nhận, khoản nợ, mã GD..." type="text"/>
+</div>
+<div class="lg:col-span-8 flex items-center gap-space-xs flex-wrap justify-start lg:justify-end">
+<div class="relative">
+<select class="appearance-none bg-surface-container-low text-on-surface font-label-md text-label-md pl-3 pr-8 py-2 rounded-lg focus:outline-none cursor-pointer hover:bg-surface-container transition-colors" id="periodFilter">
+<option value="all">Tất cả kỳ chi</option>
+<option selected="" value="10-2024">Tháng 10/2024</option>
+<option value="09-2024">Tháng 09/2024</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-on-surface-variant text-base">expand_more</span>
+</div>
+<div class="relative">
+<select class="appearance-none bg-surface-container-low text-on-surface font-label-md text-label-md pl-3 pr-8 py-2 rounded-lg focus:outline-none cursor-pointer hover:bg-surface-container transition-colors" id="methodFilter">
+<option value="all">Tất cả hình thức</option>
+<option value="vietqr">VietQR Napas247</option>
+<option value="transfer">Chuyển khoản IB</option>
+<option value="cash">Tiền mặt</option>
+<option value="offset">Cấn trừ công nợ</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-on-surface-variant text-base">expand_more</span>
+</div>
+<div class="relative">
+<select class="appearance-none bg-surface-container-low text-on-surface font-label-md text-label-md pl-3 pr-8 py-2 rounded-lg focus:outline-none cursor-pointer hover:bg-surface-container transition-colors" id="statusFilter">
+<option value="all">Tất cả trạng thái</option>
+<option value="completed">Đã hoàn tất</option>
+<option value="pending">Chờ xác nhận</option>
+<option value="cancelled">Đã hủy</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-on-surface-variant text-base">expand_more</span>
+</div>
+<button class="p-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" onclick="resetFilters()" title="Làm mới bộ lọc" type="button">
+<span class="material-symbols-outlined text-xl">tune</span>
+</button>
+</div>
+</div>
+</section>
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-left min-w-[980px]">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-space-sm px-space-md">Mã GD &amp; Ngày</th>
+<th class="py-space-sm px-space-md">Người gửi</th>
+<th class="py-space-sm px-space-xs text-center">Luồng</th>
+<th class="py-space-sm px-space-md">Người nhận</th>
+<th class="py-space-sm px-space-md">Khoản chi liên quan</th>
+<th class="py-space-sm px-space-md">Phương thức</th>
+<th class="py-space-sm px-space-md text-right">Số tiền</th>
+<th class="py-space-sm px-space-md">Trạng thái</th>
+<th class="py-space-sm px-space-md text-right">Thao tác</th>
+</tr>
+</thead>
+<tbody class="divide-y-0 text-body-md font-body-md" id="txTableBody">
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-numeric-md text-numeric-md text-primary font-semibold">#TX-2410-098</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">24/10/2024 21:14:02</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Chân dung bạn nam sinh viên công nghệ, góc nghiêng hiện đại, tóc đen ngắn, áo phông tối giản trên nền tông phòng ký túc xá ấm áp" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcf-CVNexZhLArDGJkKv8ikjPYXHOhQEEWx2QYk5faWsvKI0w4JuwPrDwuOEb1EODT-iuNU-xzhqnfy7Nkpred8Bj31dJi3LDWJ5NSH3Ib_r37OmmJA_EvUrU9T7MMTwmHVG9DQGrlgIC0jQ4mNWglF83pULWhmc00cwfO5Hdzcsu7F29rzCdX16GCDmLjJiiqDQoaarDUYIjgk52NaaX19F-nbc-ggQKJAirPQ4E1thKUOjVrlSJX"/>
+<span class="font-label-md text-label-md text-on-surface">Hoàng Minh Quân</span>
+</div>
+</td>
+<td class="py-space-md px-space-xs text-center">
+<span class="material-symbols-outlined text-primary text-base">arrow_forward</span>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Chân dung trưởng phòng sinh viên năng động, nụ cười thân thiện, đeo kính mắt gọng đen, ánh sáng phòng học tự nhiên" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAt80z6hMmnTfoznqupee0NTG79RXiH-9OsM365pcnfbVxQ4QPI_DzJn6WJWXqIRwcJXLf_lGX3F3cvZgLdtO0N2O_vtA-Y-Guinwv9H5c6zQupHSTO189h4la7kd-i0r_jv5P3S38f38KtO6bxDjOjNZuK7zfcXJIWwvjcmoqO-g__-Un_Xa58efD-vBwT6ERiJFO7Zb4pS759FFvcixpGPqam6IzSctDtch_FWrtY61QG9Aaxmu2Q"/>
+<span class="font-label-md text-label-md text-on-surface">Nguyễn Văn Nam</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface text-sm">Tiền cước FPT T10</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Gói Meta 1Gbps phòng 402</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-surface-container text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs">qr_code_2</span>
+<span>VietQR Napas</span>
+</span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<span class="font-numeric-md text-numeric-md text-primary">+85.000 ₫</span>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 text-primary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span>Đã xác nhận 2 bên</span>
+</span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="inline-flex items-center gap-space-xs">
+<button class="p-1.5 rounded-md text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" onclick="openReceiptDetail('TX-2410-098')" title="Xem ủy nhiệm chi" type="button">
+<span class="material-symbols-outlined text-lg">receipt_long</span>
+</button>
+<button class="p-1.5 rounded-md text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Tải ảnh biên lai" type="button">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+</td>
+</tr>
+<tr class="bg-tertiary-container/5 hover:bg-tertiary-container/10 transition-colors">
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-numeric-md text-numeric-md text-tertiary font-semibold">#TX-2410-097</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">24/10/2024 18:32:10</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Chân dung sinh viên đại học trẻ trung, áo khoác hoodie, ánh sáng chiều ấm áp tại hành lang chung cư sinh viên" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALFydCT4d7K1F32QTA3Q_uqW4VVJ_OIz-CyuFR_Xy892HE-iLK6T1hSW3wuVY4Phuac1hIVMfaBILffTb4qecsGPZMOy3fBnKc2jakfkhDtE7i8suuVjG4-RfMdx9v8KTZGMwifozLhW31zCqeWB-2qy31qEVLc3Bl0GTGPCmObQLliGiWOFwn7ZOaSms1bnM1ZRFNWRWOR5YxfEYP6Dv4Pl4mhNHOaazxjpMyQCH3tXea84cql3s6"/>
+<span class="font-label-md text-label-md text-on-surface">Lê Hải Long</span>
+</div>
+</td>
+<td class="py-space-md px-space-xs text-center">
+<span class="material-symbols-outlined text-tertiary text-base">arrow_forward</span>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Chân dung trưởng phòng sinh viên năng động, nụ cười thân thiện, đeo kính mắt gọng đen, ánh sáng phòng học tự nhiên" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhfHsYyQ0TPnPgOcoKKLfJmA2YV_vEHKp3bJ-0Lx2rPV7QP5dDPNcuaWbwiI5O_qeNDN8kSaiNbySSWg7ho4nRxqwpJLsuJ2qOZM0ixlwpumG5j3cSBLJA0vTcJEAch9UJgl10ieYDa718FWUScTnsO47y3WuHr2RCwIIFdztDdAZoP1n_Ne6iVLROLfkkMqhu24J3njV6Q1FbSw5RsWe6S3KFbd4fiCdLuVW2lgjhv1sLQ9IUCxCx"/>
+<span class="font-label-md text-label-md text-on-surface">Nguyễn Văn Nam</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface text-sm">Gia vị &amp; dầu ăn nấu chung</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Siêu thị WinMart+</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs">payments</span>
+<span>Tiền mặt</span>
+</span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<span class="font-numeric-md text-numeric-md text-tertiary font-bold">120.000 ₫</span>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-container animate-pulse"></span>
+<span>Chờ Nam duyệt</span>
+</span>
+<button class="px-2 py-1 rounded-md bg-primary text-on-primary font-label-sm text-label-sm hover:bg-primary-container transition-all" onclick="confirmPayment('TX-2410-097')" type="button">
+                  Duyệt ngay
+                </button>
+</div>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="inline-flex items-center gap-space-xs">
+<button class="p-1.5 rounded-md text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" onclick="openReceiptDetail('TX-2410-097')" title="Xem chi tiết" type="button">
+<span class="material-symbols-outlined text-lg">visibility</span>
+</button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-numeric-md text-numeric-md text-primary font-semibold">#TX-2410-092</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">21/10/2024 08:05:44</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Chân dung sinh viên khoa kinh tế vui vẻ, tóc ngắn gọn gàng, áo thun polo trắng, phòng trọ hiện đại sạch sẽ" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0b4FtI7a2PID0VQJVnmi1uSfTGaHIqy_oqmoBXsfwVhvGrXXIxtp740HhHU_ltu-zOvDZL1zi0dMQhSANatdyO9MPss2DLk98znuClZ1_mWdY9imiWJ_3jEuhUAHJ3o1Eba6HVs6LVg_xSrJq4f3k5ZQ34lSMN_gDbeylaX_VJq5ZeZRJaVJfmqWDLtu9Ar4EJ3WfEuTZgJEGwsA2N2BK4YeoGMbdRQ6pUsoeT4Tj3HxP9hyht8K7"/>
+<span class="font-label-md text-label-md text-on-surface">Trần Tuấn Anh</span>
+</div>
+</td>
+<td class="py-space-md px-space-xs text-center">
+<span class="material-symbols-outlined text-primary text-base">arrow_forward</span>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Chân dung trưởng phòng sinh viên năng động, nụ cười thân thiện, đeo kính mắt gọng đen, ánh sáng phòng học tự nhiên" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBR2e80gx6rkkM0YdjXzi7D4Fdc_NdFeEedHDSmE1dFFlHUeHCXaiwzzk5YVcZBPi3qntZMRxNUBwnIxC_dLBkbaWtk6jviIMjW57a13Ao97YkKEiV9xwSzGrK504Cd0_-73TKL0DarntNrFIVX6I82h8Pi7lXntlgz73irIzRsxYqKDt1kjoJ-_Il0lo3su5r_vAfP2q38v-aw09GAcCoRtz6vy86-0xu9JPp49KRikiof9jOpO_E_"/>
+<span class="font-label-md text-label-md text-on-surface">Nguyễn Văn Nam</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface text-sm">Tiền điện nước bù T9</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Chốt theo số công tơ 402</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-surface-container text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs">qr_code_2</span>
+<span>VietQR Napas</span>
+</span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<span class="font-numeric-md text-numeric-md text-primary">+415.000 ₫</span>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 text-primary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span>Đã xác nhận 2 bên</span>
+</span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="inline-flex items-center gap-space-xs">
+<button class="p-1.5 rounded-md text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" onclick="openReceiptDetail('TX-2410-092')" title="Xem ủy nhiệm chi" type="button">
+<span class="material-symbols-outlined text-lg">receipt_long</span>
+</button>
+<button class="p-1.5 rounded-md text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Tải ảnh" type="button">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-numeric-md text-numeric-md text-primary font-semibold">#TX-2410-089</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">19/10/2024 14:10:19</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Chân dung trưởng phòng sinh viên năng động, nụ cười thân thiện, đeo kính mắt gọng đen, ánh sáng phòng học tự nhiên" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWDZth2H_8AeuoZF7BWyfIufhoI4SDoRzz6_0w8IlislhRpoyHWvEvwVVA1NVzDFBsRPWpIZ9kqwqKdyfqQfwxlnI6MlWkyN5UJpnSTEIeFEk7vQkjZthz8Blg-c3SntHVNBawK6cfZOHA4EYopJN6XUP-qz2HKS2EO5KqkkY4jJV4xrjDxXqBYRYXyIqyCfs4nHjt6TkOKGwXVK6p-qbc1suq-_kfkjqxnl3QGQcthHW1Eow9h-GL"/>
+<span class="font-label-md text-label-md text-on-surface">Nguyễn Văn Nam</span>
+</div>
+</td>
+<td class="py-space-md px-space-xs text-center">
+<span class="material-symbols-outlined text-primary text-base">arrow_forward</span>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Chân dung bạn nam sinh viên công nghệ, góc nghiêng hiện đại, tóc đen ngắn, áo phông tối giản trên nền tông phòng ký túc xá ấm áp" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhIF98CJ8pd4l6kUcbpy3xfU21q4EpFFx41QeyvduV6HtDxZj3bDYz12e53Qq5jy63MQkjHbRcwPew7F8ZM-XC0PGBJPhsdSZkf4qHzNdQYlgOoRGbLAlpz7bkckvbrF1L8RKmAnghUjRrJM4_fej-rMMEH8Mk0ntnZCBJurJ_50OkmBs1JUIgCaqrxtmvKmL6Xi55Lep6HhwR179EafV3zymFzb_PjoW-7naG2EySMhLXraUQY3uY"/>
+<span class="font-label-md text-label-md text-on-surface">Hoàng Minh Quân</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface text-sm">Cấn trừ tiền bình nước 20L</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Đối trừ mua chổi lau nhà</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-secondary-fixed/50 text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs">sync_alt</span>
+<span>Cấn trừ tự động</span>
+</span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<span class="font-numeric-md text-numeric-md text-primary">+65.000 ₫</span>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 text-primary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span>Đã tất toán</span>
+</span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="inline-flex items-center gap-space-xs">
+<button class="p-1.5 rounded-md text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" onclick="openReceiptDetail('TX-2410-089')" title="Xem chi tiết cấn trừ" type="button">
+<span class="material-symbols-outlined text-lg">receipt_long</span>
+</button>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-numeric-md text-numeric-md text-primary font-semibold">#TX-2410-076</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">15/10/2024 19:48:50</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Chân dung sinh viên khoa kinh tế vui vẻ, tóc ngắn gọn gàng, áo thun polo trắng, phòng trọ hiện đại sạch sẽ" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIo6wJYW-TYY7dxLhhT-SLGG62HBgn-IztMkv4Kayo-GmRu6-pXrL5z0BCmq8fhNfEDa5EMyMuziSFZ5Rol_CuHtfkJTuQTQbLKSZyk_CgpvyOVS-W8_C9XaccDy-WLVc0mXr8TM4ZgQDEXWgomUO_HJjSkYK4KnHbZLrGpgUCJ4BQ8_Sx6PLEYv539F8q94LTLEoncHbnP1V4m6qWskasA3G3pSFaCq8F5BmVeP9QmyEdEFl4WNm2"/>
+<span class="font-label-md text-label-md text-on-surface">Trần Tuấn Anh</span>
+</div>
+</td>
+<td class="py-space-md px-space-xs text-center">
+<span class="material-symbols-outlined text-primary text-base">arrow_forward</span>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Chân dung sinh viên đại học trẻ trung, áo khoác hoodie, ánh sáng chiều ấm áp tại hành lang chung cư sinh viên" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfZp5TxbZuxOImklH2K1xDGF5cwOVB4W7yuDIOZXH1L0IIVnOYH8l9zTZ59lsPNtZ8_Qa8_PluCkZ3IwIEUx1tUQE6zXpyG17Php4aIlJNBjfzjcoRD1M0gVyhLRAHWzof6wcuDwTrLDnkiuaNOkJwdBszYe2SdNC4IvwFZPk4QRSInK1BbTxGMMAZZ80HAoT6OQEIX-NE4640x1-OHeSP32lWNgRuTnPuXOSH7ra85StlSUTmADvz"/>
+<span class="font-label-md text-label-md text-on-surface">Lê Hải Long</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface text-sm">Tiền liên hoan lẩu đầu tháng</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Chia 4 người</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-surface-container text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs">qr_code_2</span>
+<span>VietQR Napas</span>
+</span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<span class="font-numeric-md text-numeric-md text-primary">+210.000 ₫</span>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 text-primary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span>Đã xác nhận 2 bên</span>
+</span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="inline-flex items-center gap-space-xs">
+<button class="p-1.5 rounded-md text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" onclick="openReceiptDetail('TX-2410-076')" title="Xem ủy nhiệm chi" type="button">
+<span class="material-symbols-outlined text-lg">receipt_long</span>
+</button>
+<button class="p-1.5 rounded-md text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Tải ảnh" type="button">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="px-space-lg py-space-md bg-surface-container-low/40 flex flex-col sm:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-space-xs">
+<span>Hiển thị</span>
+<span class="font-semibold text-on-surface">5</span>
+<span>trên tổng số</span>
+<span class="font-semibold text-on-surface">24</span>
+<span>giao dịch đã ghi nhận</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container transition-colors disabled:opacity-40" disabled="" type="button">
+          Trang trước
+        </button>
+<button class="w-8 h-8 rounded-lg bg-primary text-on-primary font-semibold flex items-center justify-center" type="button">1</button>
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container flex items-center justify-center" type="button">2</button>
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container flex items-center justify-center" type="button">3</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container transition-colors" type="button">
+          Trang sau
+        </button>
+</div>
+</div>
+</div>
+<div class="fixed inset-0 z-50 hidden" id="receiptDrawer">
+<div class="absolute inset-0 bg-on-surface/40 backdrop-blur-sm transition-opacity" onclick="closeReceiptDetail()"></div>
+<div class="absolute right-0 top-0 bottom-0 w-full max-w-lg bg-surface-container-lowest shadow-2xl p-space-lg flex flex-col overflow-y-auto">
+<div class="flex items-center justify-between pb-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-lg bg-primary-container/15 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-lg">receipt</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface" id="drawerTitle">Biên lai giao dịch</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant" id="drawerTxId">#TX-2410-098</p>
+</div>
+</div>
+<button class="p-1 rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" onclick="closeReceiptDetail()" type="button">
+<span class="material-symbols-outlined text-xl">close</span>
+</button>
+</div>
+<div class="my-space-md p-space-md rounded-xl bg-surface-container-low space-y-space-sm text-center relative overflow-hidden">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Số tiền quyết toán</div>
+<div class="font-display-lg text-display-lg text-primary tracking-tight" id="drawerAmount">85.000 ₫</div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span id="drawerStatus">Thanh toán hoàn tất</span>
+</div>
+</div>
+<div class="space-y-space-md font-body-md text-body-md flex-1">
+<div class="space-y-space-xs">
+<span class="font-label-md text-label-md text-on-surface-variant">Chi tiết luồng tiền</span>
+<div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="text-on-surface-variant text-xs font-semibold">Từ:</span>
+<span class="font-label-md text-label-md text-on-surface" id="drawerSender">Hoàng Minh Quân</span>
+</div>
+<span class="material-symbols-outlined text-primary text-base">east</span>
+<div class="flex items-center gap-space-xs">
+<span class="text-on-surface-variant text-xs font-semibold">Đến:</span>
+<span class="font-label-md text-label-md text-on-surface" id="drawerReceiver">Nguyễn Văn Nam</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<div class="font-label-sm text-label-sm text-on-surface-variant">Kênh giao dịch</div>
+<div class="font-label-md text-label-md text-on-surface mt-0.5" id="drawerMethod">VietQR (MB Bank)</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<div class="font-label-sm text-label-sm text-on-surface-variant">Mã chuẩn Napas</div>
+<div class="font-numeric-md text-numeric-md text-on-surface mt-0.5 text-xs">FT242987110912</div>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<div class="font-label-sm text-label-sm text-on-surface-variant">Nội dung chuyển khoản (Memo)</div>
+<div class="font-body-md text-body-md text-on-surface mt-0.5">TroPay P402 Quan chuyen tien mang FPT T10</div>
+</div>
+<div class="space-y-space-xs">
+<span class="font-label-md text-label-md text-on-surface-variant">Hình ảnh xác nhận ủy nhiệm chi</span>
+<div class="rounded-xl overflow-hidden shadow-sm bg-surface-container">
+<img class="w-full h-48 object-cover" data-alt="Ảnh chụp màn hình biên lai chuyển tiền thành công trên ứng dụng mobile banking, giao diện tiếng Việt tông xanh chuẩn VietQR Napas 247" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVCtVeovhPGrBkKdJgcQc3h5qBAqOj_ltYdTSDV9OCZTVzwNfTzuBU9YMcR-yFjISE8bQQqmFzrRCoIKOs9YysxDGf8sGQQTMysruU--yu2ldjD05DUzal6xuW5utViqeACB_7uR547ZrUGBMPRfTBGeChrmUr_5Ou1jjH26WdPMxYtkRigCLl0NubGBKIwhGsVwAlnZ2xeORbQDbN533OyYlKChPoZ-xFg3DQPyeW3aVBSFBcbQvt"/>
+</div>
+</div>
+<div class="space-y-space-xs pt-space-xs">
+<span class="font-label-md text-label-md text-on-surface-variant">Nhật ký xác nhận (Audit Log)</span>
+<div class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant pl-space-xs">
+<div class="flex items-start gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary mt-1.5 flex-shrink-0"></span>
+<div>
+<span class="text-on-surface font-medium">Hoàng Minh Quân</span> đã quét mã VietQR và gửi yêu cầu
+                <div class="text-xs text-on-surface-variant">24/10/2024 21:14:02</div>
+</div>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary mt-1.5 flex-shrink-0"></span>
+<div>
+<span class="text-on-surface font-medium">Hệ thống TrọPay</span> khớp tự động biến động số dư ngân hàng
+                <div class="text-xs text-on-surface-variant">24/10/2024 21:14:15</div>
+</div>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary mt-1.5 flex-shrink-0"></span>
+<div>
+<span class="text-on-surface font-medium">Nguyễn Văn Nam</span> đã bấm xác nhận đã nhận đủ
+                <div class="text-xs text-on-surface-variant">24/10/2024 21:14:40</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-space-md mt-auto flex items-center gap-space-sm">
+<button class="flex-1 py-space-sm rounded-lg bg-surface-container-low text-on-surface font-headline-sm text-headline-sm hover:bg-surface-container transition-colors" onclick="closeReceiptDetail()" type="button">
+          Đóng
+        </button>
+<button class="flex-1 py-space-sm rounded-lg bg-primary text-on-primary font-headline-sm text-headline-sm hover:bg-primary-container transition-colors inline-flex items-center justify-center gap-1" type="button">
+<span class="material-symbols-outlined text-base">file_download</span>
+<span>Tải file PDF</span>
+</button>
+</div>
+</div>
+</div>
+<div class="fixed inset-0 z-50 hidden" id="createPaymentModal">
+<div class="absolute inset-0 bg-on-surface/40 backdrop-blur-sm transition-opacity" onclick="closeCreateModal()"></div>
+<div class="relative max-w-lg w-full mx-auto my-auto mt-20 bg-surface-container-lowest rounded-2xl shadow-2xl p-space-lg z-10 flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Ghi nhận thanh toán / Trả nợ</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cập nhật bù trừ số dư thực tế giữa 2 thành viên</p>
+</div>
+<button class="p-1 rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" onclick="closeCreateModal()" type="button">
+<span class="material-symbols-outlined text-xl">close</span>
+</button>
+</div>
+<div class="space-y-space-sm font-body-md text-body-md">
+<div class="grid grid-cols-2 gap-space-sm">
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1">Người trả tiền</label>
+<select class="w-full p-2 bg-surface-container-low rounded-lg font-body-md text-body-md text-on-surface focus:outline-none">
+<option>Hoàng Minh Quân</option>
+<option>Lê Hải Long</option>
+<option>Trần Tuấn Anh</option>
+<option>Nguyễn Văn Nam</option>
+</select>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1">Người nhận tiền</label>
+<select class="w-full p-2 bg-surface-container-low rounded-lg font-body-md text-body-md text-on-surface focus:outline-none">
+<option>Nguyễn Văn Nam (Trưởng phòng)</option>
+<option>Hoàng Minh Quân</option>
+<option>Lê Hải Long</option>
+<option>Trần Tuấn Anh</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1">Số tiền thanh toán</label>
+<div class="relative flex items-center bg-surface-container-low rounded-lg px-3">
+<input class="w-full py-2 bg-transparent font-numeric-md text-numeric-md text-on-surface focus:outline-none" placeholder="0" type="text"/>
+<span class="font-headline-sm text-headline-sm text-on-surface-variant">₫</span>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1">Khoản chi hoặc nợ liên quan</label>
+<select class="w-full p-2 bg-surface-container-low rounded-lg font-body-md text-body-md text-on-surface focus:outline-none">
+<option>Tiền cước FPT T10/2024</option>
+<option>Tiền điện nước bù T9/2024</option>
+<option>Gia vị &amp; đồ dùng chung</option>
+<option>Tất toán tổng công nợ phòng</option>
+</select>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1">Hình thức thanh toán</label>
+<div class="grid grid-cols-3 gap-space-xs">
+<label class="flex flex-col items-center justify-center p-2 rounded-lg bg-surface-container-low hover:bg-surface-container cursor-pointer text-center">
+<input checked="" class="accent-primary" name="pay_mode" type="radio"/>
+<span class="font-label-sm text-label-sm text-on-surface mt-1">VietQR</span>
+</label>
+<label class="flex flex-col items-center justify-center p-2 rounded-lg bg-surface-container-low hover:bg-surface-container cursor-pointer text-center">
+<input class="accent-primary" name="pay_mode" type="radio"/>
+<span class="font-label-sm text-label-sm text-on-surface mt-1">Tiền mặt</span>
+</label>
+<label class="flex flex-col items-center justify-center p-2 rounded-lg bg-surface-container-low hover:bg-surface-container cursor-pointer text-center">
+<input class="accent-primary" name="pay_mode" type="radio"/>
+<span class="font-label-sm text-label-sm text-on-surface mt-1">Cấn trừ nợ</span>
+</label>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1">Ghi chú thêm</label>
+<input class="w-full p-2 bg-surface-container-low rounded-lg font-body-md text-body-md text-on-surface focus:outline-none" placeholder="Nhập lời nhắn hoặc mã tham chiếu..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<button class="flex-1 py-space-sm rounded-lg bg-surface-container-low text-on-surface font-headline-sm text-headline-sm hover:bg-surface-container transition-colors" onclick="closeCreateModal()" type="button">
+          Hủy bỏ
+        </button>
+<button class="flex-1 py-space-sm rounded-lg bg-primary text-on-primary font-headline-sm text-headline-sm hover:bg-primary-container transition-colors" onclick="submitNewPayment()" type="button">
+          Lưu thanh toán
+        </button>
+</div>
+</div>
+</div>
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none bg-inverse-surface text-inverse-on-surface px-space-md py-space-sm rounded-xl shadow-xl flex items-center gap-space-sm" id="toastNotification">
+<span class="material-symbols-outlined text-primary-fixed">check_circle</span>
+<span class="font-body-md text-body-md" id="toastMessage">Thao tác thành công!</span>
+</div>
+<script>
+    function showToast(msg) {
+      const toast = document.getElementById('toastNotification');
+      const toastText = document.getElementById('toastMessage');
+      if (!toast || !toastText) return;
+      toastText.innerText = msg;
+      toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+      setTimeout(() => {
+        toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+      }, 3000);
+    }
+
+    function openReceiptDetail(txId) {
+      const drawer = document.getElementById('receiptDrawer');
+      const txIdEl = document.getElementById('drawerTxId');
+      const amountEl = document.getElementById('drawerAmount');
+      const senderEl = document.getElementById('drawerSender');
+      const receiverEl = document.getElementById('drawerReceiver');
+      const methodEl = document.getElementById('drawerMethod');
+      const statusEl = document.getElementById('drawerStatus');
+
+      if (txId === 'TX-2410-097') {
+        txIdEl.innerText = '#TX-2410-097';
+        amountEl.innerText = '120.000 ₫';
+        senderEl.innerText = 'Lê Hải Long';
+        receiverEl.innerText = 'Nguyễn Văn Nam';
+        methodEl.innerText = 'Tiền mặt';
+        statusEl.innerText = 'Chờ Nam duyệt';
+      } else if (txId === 'TX-2410-092') {
+        txIdEl.innerText = '#TX-2410-092';
+        amountEl.innerText = '415.000 ₫';
+        senderEl.innerText = 'Trần Tuấn Anh';
+        receiverEl.innerText = 'Nguyễn Văn Nam';
+        methodEl.innerText = 'VietQR (Vietcombank)';
+        statusEl.innerText = 'Thanh toán hoàn tất';
+      } else if (txId === 'TX-2410-089') {
+        txIdEl.innerText = '#TX-2410-089';
+        amountEl.innerText = '65.000 ₫';
+        senderEl.innerText = 'Nguyễn Văn Nam';
+        receiverEl.innerText = 'Hoàng Minh Quân';
+        methodEl.innerText = 'Bù trừ cấn nợ tự động';
+        statusEl.innerText = 'Đã đối soát';
+      } else {
+        txIdEl.innerText = '#TX-2410-098';
+        amountEl.innerText = '85.000 ₫';
+        senderEl.innerText = 'Hoàng Minh Quân';
+        receiverEl.innerText = 'Nguyễn Văn Nam';
+        methodEl.innerText = 'VietQR Napas247 (MB Bank)';
+        statusEl.innerText = 'Thanh toán hoàn tất';
+      }
+
+      if (drawer) drawer.classList.remove('hidden');
+    }
+
+    function closeReceiptDetail() {
+      const drawer = document.getElementById('receiptDrawer');
+      if (drawer) drawer.classList.add('hidden');
+    }
+
+    function openCreateModal() {
+      const modal = document.getElementById('createPaymentModal');
+      if (modal) modal.classList.remove('hidden');
+    }
+
+    function closeCreateModal() {
+      const modal = document.getElementById('createPaymentModal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function submitNewPayment() {
+      closeCreateModal();
+      showToast('Đã thêm bản ghi thanh toán mới thành công!');
+    }
+
+    function confirmPayment(txId) {
+      showToast('Đã duyệt và xác nhận thanh toán ' + txId + ' thành công!');
+    }
+
+    function resetFilters() {
+      const search = document.getElementById('txSearchInput');
+      const period = document.getElementById('periodFilter');
+      const method = document.getElementById('methodFilter');
+      const status = document.getElementById('statusFilter');
+
+      if (search) search.value = '';
+      if (period) period.value = 'all';
+      if (method) method.value = 'all';
+      if (status) status.value = 'all';
+
+      showToast('Đã làm mới bộ lọc giao dịch!');
+    }
+  </script>
+</div></main></div></body></html>

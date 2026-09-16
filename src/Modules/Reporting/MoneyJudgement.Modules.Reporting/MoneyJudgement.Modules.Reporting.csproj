@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\SharedKernel\MoneyJudgement.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\BillSplitting\MoneyJudgement.Modules.BillSplitting.Contracts\MoneyJudgement.Modules.BillSplitting.Contracts.csproj" />
+    <ProjectReference Include="..\..\Settlement\MoneyJudgement.Modules.Settlement.Contracts\MoneyJudgement.Modules.Settlement.Contracts.csproj" />
+    <ProjectReference Include="..\..\GroupManagement\MoneyJudgement.Modules.GroupManagement.Contracts\MoneyJudgement.Modules.GroupManagement.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="Mapster" Version="10.0.12" />
+    <PackageReference Include="MediatR" Version="14.2.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
