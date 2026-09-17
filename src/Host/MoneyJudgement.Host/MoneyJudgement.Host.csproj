@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -7,9 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Identity\MoneyJudgement.Modules.Identity\MoneyJudgement.Modules.Identity.csproj" />
+    <ProjectReference Include="..\..\Modules\GroupManagement\MoneyJudgement.Modules.GroupManagement\MoneyJudgement.Modules.GroupManagement.csproj" />
+    <ProjectReference Include="..\..\Modules\BillSplitting\MoneyJudgement.Modules.BillSplitting\MoneyJudgement.Modules.BillSplitting.csproj" />
+    <ProjectReference Include="..\..\Modules\Settlement\MoneyJudgement.Modules.Settlement\MoneyJudgement.Modules.Settlement.csproj" />
+    <ProjectReference Include="..\..\Modules\Reporting\MoneyJudgement.Modules.Reporting\MoneyJudgement.Modules.Reporting.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Hangfire.AspNetCore" Version="1.8.25" />
     <PackageReference Include="Hangfire.PostgreSql" Version="1.21.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.1" />
     <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
     <PackageReference Include="StackExchange.Redis" Version="3.2.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />

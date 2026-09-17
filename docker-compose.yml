@@ -6,7 +6,7 @@ services:
       POSTGRES_USER: moneyjudgement
       POSTGRES_PASSWORD: moneyjudgement
       POSTGRES_DB: moneyjudgement
-    ports: ["5432:5432"]
+    ports: ["5433:5432"]
     volumes: ["pg_data:/var/lib/postgresql/data"]
   redis:
     image: redis:7
