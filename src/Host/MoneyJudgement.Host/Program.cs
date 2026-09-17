@@ -1,9 +1,19 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+using MoneyJudgement.Modules.Identity;
+using MoneyJudgement.Modules.GroupManagement;
+using MoneyJudgement.Modules.BillSplitting;
+using MoneyJudgement.Modules.Settlement;
+using MoneyJudgement.Modules.Reporting;
+
+var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 
+// Register module DbContexts
+builder.Services.AddIdentityModule(builder.Configuration);
+builder.Services.AddGroupManagementModule(builder.Configuration);
+builder.Services.AddBillSplittingModule(builder.Configuration);
+builder.Services.AddSettlementModule(builder.Configuration);
+builder.Services.AddReportingModule(builder.Configuration);
 
 var app = builder.Build();
 
